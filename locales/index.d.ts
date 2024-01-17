@@ -795,6 +795,7 @@ export interface Locale {
     "forwardReport": string;
     "forwardReportIsAnonymous": string;
     "send": string;
+    "reportedNote": string;
     "abuseMarkAsResolved": string;
     "openInNewTab": string;
     "openInSideView": string;
@@ -985,6 +986,7 @@ export interface Locale {
     "on": string;
     "off": string;
     "emailRequiredForSignup": string;
+    "enableGDPRMode": string;
     "unread": string;
     "filter": string;
     "controlPanel": string;

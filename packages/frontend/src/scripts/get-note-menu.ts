@@ -106,7 +106,7 @@ export function getAbuseNoteMenu(note: Misskey.entities.Note, text: string): Men
 			const host = note.user.host ? '@' + note.user.host : '';
 			os.popup(defineAsyncComponent(() => import('@/components/MkAbuseReportWindow.vue')), {
 				user: note.user,
-				initialComment: `Note: ${u}\nUser: ${username + host}\n-----\n`,
+				initialNoteId: note.id,
 			}, {}, 'closed');
 		},
 	};

@@ -520,6 +520,10 @@ export const meta = {
 				type: 'string',
 				optional: true, nullable: true,
 			},
+			enableGDPRMode: {
+				type: 'boolean',
+				optional: false, nullable: false,
+			},
 		},
 	},
 } as const;
@@ -673,6 +677,7 @@ export default class extends Endpoint<typeof meta, typeof paramDef> { // eslint-
 				enableReceivePrerelease: instance.enableReceivePrerelease,
 				skipVersion: instance.skipVersion,
 				skipCherryPickVersion: instance.skipCherryPickVersion,
+				enableGDPRMode: instance.enableGDPRMode,
 			};
 		});
 	}

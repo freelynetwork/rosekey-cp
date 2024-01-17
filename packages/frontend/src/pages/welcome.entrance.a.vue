@@ -38,7 +38,7 @@ import * as Misskey from 'cherrypick-js';
 import XTimeline from './welcome.timeline.vue';
 import MarqueeText from '@/components/MkMarquee.vue';
 import MkFeaturedPhotos from '@/components/MkFeaturedPhotos.vue';
-import cherrypicksvg from '/client-assets/cherrypick.svg';
+import cherrypicksvg from '/client-assets/rosekey.png';
 import misskeysvg from '/client-assets/misskey.svg';
 import { misskeyApi, misskeyApiGet } from '@/scripts/misskey-api.js';
 import MkVisitorDashboard from '@/components/MkVisitorDashboard.vue';

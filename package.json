@@ -1,6 +1,6 @@
 {
 	"name": "rosekey",
-	"version": "2024.01.00.dev1",
+	"version": "2024.01.00.dev2",
 	"basedMisskeyVersion": "2023.12.2",
 	"basedCherryPickVersion": "4.6.0",
 	"codename": "nasubi",
